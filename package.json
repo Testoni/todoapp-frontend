@@ -4,7 +4,8 @@
   "description": "npm init -y",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "webpack-de-server --progress --colors --inline --hot", // script de inicializacao
+    "production": "webpack --progress -p" // cria bundle minificado
   },
   "keywords": [],
   "author": "",
