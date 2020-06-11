@@ -19,3 +19,6 @@ npm install --save-dev redux@3.6.0 react-redux@5.0.2
 
 midware
 npm i --save-dev redux-promise@0.5.3
+
+midware multi action
+npm i --save--dev redux-multi@0.1.12
