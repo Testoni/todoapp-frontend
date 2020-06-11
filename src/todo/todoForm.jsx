@@ -12,6 +12,7 @@ class TodoForm extends Component {
         this.keyHandler = this.keyHandler.bind(this)
     }
 
+    // when load first time the page
     componentWillMount() {
         this.props.search()
     }
