@@ -2,7 +2,7 @@ import { combineReducers } from 'redux'
 
 const rootReducer = combineReducers({
     todo: () => ({
-        description: 'Read Book',
+        description: 'Read the Book',
         list: [{
             _id: 1,
             description: 'Card payment',
